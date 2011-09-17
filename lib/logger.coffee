@@ -3,7 +3,7 @@ pack = require('./package').load()
   
 module.exports =
   log: (str) ->
-    console.log str
+    console.log '[' + pack.name.magenta + ']', str
   
   debug: (str) ->
     console.log '[' + pack.name.magenta, '-', 'debug'.green + ']', str	
