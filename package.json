@@ -5,7 +5,7 @@
    "homepage":"http://github.com/wearefractal/node-log",
    "repository":"git://github.com/wearefractal/node-log.git",
    "author":"Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
-   "main":"./lib/mlogger.coffee",
+   "main":"./lib/logger.coffee",
    
    "dependencies":{
       "coffee-script":"*",
