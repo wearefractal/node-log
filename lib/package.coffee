@@ -5,12 +5,9 @@ path = require 'path'
 exports.load = ->
   if !@package
     location = path.join(process.cwd(), 'package.json')
-    try
+    console.log location
+    if path.existsSync location
       @package = JSON.parse fs.readFileSync(location)
-    catch err
-      ext = path.extname __filename
-      @package = path.basename(__filename).replace ext, ''
-    finally
-      return @package
-  else
-    return @package
+    else
+      @package = {name: path.basename(__filename).replace(path.extname(__filename), '')}
+  return @package

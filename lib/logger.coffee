@@ -6,13 +6,13 @@ module.exports =
     console.log str
   
   debug: (str) ->
-    console.log '[' + pack.name.magenta, '-', 'DEBUG'.upcase().green.inverse + ']', str	
+    console.log '[' + pack.name.magenta, '-', 'debug'.green + ']', str	
       
   info: (str) ->
     console.log '[' + pack.name.magenta, '-', 'info'.white + ']', str
       
   warn: (str) ->
-    console.log '[' + pack.name.magenta, '-', 'warn'.upcase().yellow + ']', str
+    console.log '[' + pack.name.magenta, '-', 'warn'.yellow + ']', str
 
   error: (str) ->
-    console.log '[' + pack.name.magenta, '-', 'debug'.upcase().red.inverse + ']', str
+    console.log '[' + pack.name.magenta, '-', 'error'.red + ']', str

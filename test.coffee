@@ -1,0 +1,6 @@
+log = require 'node-log'
+log.log 'testin'
+log.debug 'testin'
+log.info 'testin'
+log.warn 'testin'
+log.error 'testin'
