@@ -1,12 +1,12 @@
 {
    "name":"node-log",
    "description":"Simple logger for NodeJS",
-   "version":"0.0.2",
+   "version":"0.0.3",
    "homepage":"http://github.com/wearefractal/node-log",
    "repository":"git://github.com/wearefractal/node-log.git",
    "author":"Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
    "main":"./lib/logger.coffee",
-   
+
    "dependencies":{
       "coffee-script":"*",
       "colors":"*"
@@ -21,3 +21,4 @@
       }
    ]
 }
+
