@@ -10,6 +10,7 @@ To install node-log, use [npm](http://github.com/isaacs/npm):
 ## Usage
 
 node-log will automatically detect the application name via your package.json file.
+
 ```
 var log = require('node-log');
 log.log('test');
