@@ -9,16 +9,20 @@ To install node-log, use [npm](http://github.com/isaacs/npm):
 
 ## Usage
 
-node-log will automatically detect the application name via your package.json file.
+node-log will automatically detect the application name via your package.json file or you can specify it at runtime.
 
 ```
 var log = require('node-log');
+log.setName('mysupercoolapp');
 log.log('test');
 log.error('erruh!');
 log.debug('secrecy');
 log.warn('watch out bruh');
 log.info('seriously watch out');
 ```
+![pic](http://i.imgur.com/ZkzU0.png)
+
+You only need to specify the name once during the start of your application unless you want to change it.
 
 ## Contributors
 
