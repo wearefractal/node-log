@@ -1,4 +1,4 @@
-log = require './lib/logger'
+log = require './index'
 log.log 'testin'
 log.debug 'testin'
 log.info 'testin'
