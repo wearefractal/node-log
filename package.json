@@ -1,7 +1,7 @@
 {
    "name":"node-log",
    "description":"Simple logger for NodeJS",
-   "version":"0.0.4",
+   "version":"0.0.5",
    "homepage":"http://github.com/wearefractal/node-log",
    "repository":"git://github.com/wearefractal/node-log.git",
    "author":"Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
