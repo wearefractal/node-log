@@ -1,4 +1,3 @@
-require('coffee-script');
 require 'colors'
 
 module.exports = log =

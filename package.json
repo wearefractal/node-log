@@ -1,24 +1,22 @@
 {
-   "name":"node-log",
-   "description":"Simple logger for NodeJS",
-   "version":"0.0.5",
-   "homepage":"http://github.com/wearefractal/node-log",
-   "repository":"git://github.com/wearefractal/node-log.git",
-   "author":"Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
-   "main":"./lib/index.js",
-
-   "dependencies":{
-      "coffee-script":"*",
-      "colors":"*"
-   },
-   "engines":{
-      "node":">= 0.4.0"
-   },
-   "licenses":[
-      {
-         "type":"MIT",
-         "url":"http://github.com/wearefractal/node-log/raw/master/LICENSE"
-      }
-   ]
+  "name": "node-log",
+  "description": "Simple logger for NodeJS",
+  "version": "0.0.5",
+  "homepage": "http://github.com/wearefractal/node-log",
+  "repository": "git://github.com/wearefractal/node-log.git",
+  "author": "Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
+  "main": "./lib/index.js",
+  "dependencies": {
+    "coffee-script": "^1.8.0",
+    "colors": "^1.0.3"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/wearefractal/node-log/raw/master/LICENSE"
+    }
+  ]
 }
-
