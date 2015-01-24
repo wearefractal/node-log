@@ -1,5 +1,5 @@
 {
-  "name": "node-log",
+  "name": "loggo",
   "description": "Simple logger for NodeJS",
   "version": "0.0.6",
   "homepage": "http://github.com/wearefractal/node-log",
